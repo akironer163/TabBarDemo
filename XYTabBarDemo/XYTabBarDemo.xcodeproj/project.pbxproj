@@ -29,6 +29,8 @@
 		CE20032F1DCB1C0A00E4BB7E /* more_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE2003221DCB1C0A00E4BB7E /* more_icon@2x.png */; };
 		CE2003301DCB1C0A00E4BB7E /* nav_bg_image.png in Resources */ = {isa = PBXBuildFile; fileRef = CE2003231DCB1C0A00E4BB7E /* nav_bg_image.png */; };
 		CE2003311DCB1C0A00E4BB7E /* nav_bg_image@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE2003241DCB1C0A00E4BB7E /* nav_bg_image@2x.png */; };
+		CE20035C1DCB4DAD00E4BB7E /* ZFBNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE2003591DCB4DAD00E4BB7E /* ZFBNavController.m */; };
+		CE20035D1DCB4DAD00E4BB7E /* ZFBTabController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE20035B1DCB4DAD00E4BB7E /* ZFBTabController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -62,6 +64,10 @@
 		CE2003221DCB1C0A00E4BB7E /* more_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "more_icon@2x.png"; sourceTree = "<group>"; };
 		CE2003231DCB1C0A00E4BB7E /* nav_bg_image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nav_bg_image.png; sourceTree = "<group>"; };
 		CE2003241DCB1C0A00E4BB7E /* nav_bg_image@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nav_bg_image@2x.png"; sourceTree = "<group>"; };
+		CE2003581DCB4DAD00E4BB7E /* ZFBNavController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFBNavController.h; sourceTree = "<group>"; };
+		CE2003591DCB4DAD00E4BB7E /* ZFBNavController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFBNavController.m; sourceTree = "<group>"; };
+		CE20035A1DCB4DAD00E4BB7E /* ZFBTabController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFBTabController.h; sourceTree = "<group>"; };
+		CE20035B1DCB4DAD00E4BB7E /* ZFBTabController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFBTabController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +100,10 @@
 		1411B6F91CE4BB11004E8EF4 /* XYTabBarDemo */ = {
 			isa = PBXGroup;
 			children = (
+				CE2003581DCB4DAD00E4BB7E /* ZFBNavController.h */,
+				CE2003591DCB4DAD00E4BB7E /* ZFBNavController.m */,
+				CE20035A1DCB4DAD00E4BB7E /* ZFBTabController.h */,
+				CE20035B1DCB4DAD00E4BB7E /* ZFBTabController.m */,
 				CE2003151DCB1C0A00E4BB7E /* Navbar */,
 				1411B7111CE4BB2F004E8EF4 /* UITabBar+Swizzling.h */,
 				1411B7121CE4BB2F004E8EF4 /* UITabBar+Swizzling.m */,
@@ -233,7 +243,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE20035C1DCB4DAD00E4BB7E /* ZFBNavController.m in Sources */,
 				1411B7161CE4C1B9004E8EF4 /* TabBarViewController.m in Sources */,
+				CE20035D1DCB4DAD00E4BB7E /* ZFBTabController.m in Sources */,
 				1411B7021CE4BB11004E8EF4 /* ViewController.m in Sources */,
 				1411B7131CE4BB2F004E8EF4 /* UITabBar+Swizzling.m in Sources */,
 				CE2003251DCB1C0A00E4BB7E /* Navbar.m in Sources */,
