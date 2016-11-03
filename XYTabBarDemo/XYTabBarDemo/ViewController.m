@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "DemoViewController.h"
 
 @interface ViewController ()
 
@@ -24,9 +25,12 @@
 }
 
 - (void)push {
-    UIViewController *vc = [UIViewController new];
-    vc.view.backgroundColor = [UIColor blackColor];
+    
+    DemoViewController *vc = [DemoViewController new];
+    
+    //隐藏tabBar
     vc.hidesBottomBarWhenPushed = YES;
+    
     [self.navigationController pushViewController:vc animated:YES];
 }
 

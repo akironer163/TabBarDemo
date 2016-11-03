@@ -15,6 +15,7 @@
 		1411B70A1CE4BB11004E8EF4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1411B7081CE4BB11004E8EF4 /* LaunchScreen.storyboard */; };
 		1411B7131CE4BB2F004E8EF4 /* UITabBar+Swizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = 1411B7121CE4BB2F004E8EF4 /* UITabBar+Swizzling.m */; };
 		1411B7161CE4C1B9004E8EF4 /* TabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1411B7151CE4C1B9004E8EF4 /* TabBarViewController.m */; };
+		CE2003141DCB13DC00E4BB7E /* DemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE2003131DCB13DC00E4BB7E /* DemoViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,8 @@
 		1411B7121CE4BB2F004E8EF4 /* UITabBar+Swizzling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBar+Swizzling.m"; sourceTree = "<group>"; };
 		1411B7141CE4C1B9004E8EF4 /* TabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarViewController.h; sourceTree = "<group>"; };
 		1411B7151CE4C1B9004E8EF4 /* TabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarViewController.m; sourceTree = "<group>"; };
+		CE2003121DCB13DC00E4BB7E /* DemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoViewController.h; sourceTree = "<group>"; };
+		CE2003131DCB13DC00E4BB7E /* DemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +75,8 @@
 				1411B6FE1CE4BB11004E8EF4 /* AppDelegate.m */,
 				1411B7001CE4BB11004E8EF4 /* ViewController.h */,
 				1411B7011CE4BB11004E8EF4 /* ViewController.m */,
+				CE2003121DCB13DC00E4BB7E /* DemoViewController.h */,
+				CE2003131DCB13DC00E4BB7E /* DemoViewController.m */,
 				1411B7031CE4BB11004E8EF4 /* Main.storyboard */,
 				1411B7061CE4BB11004E8EF4 /* Assets.xcassets */,
 				1411B7081CE4BB11004E8EF4 /* LaunchScreen.storyboard */,
@@ -162,6 +167,7 @@
 				1411B7161CE4C1B9004E8EF4 /* TabBarViewController.m in Sources */,
 				1411B7021CE4BB11004E8EF4 /* ViewController.m in Sources */,
 				1411B7131CE4BB2F004E8EF4 /* UITabBar+Swizzling.m in Sources */,
+				CE2003141DCB13DC00E4BB7E /* DemoViewController.m in Sources */,
 				1411B6FF1CE4BB11004E8EF4 /* AppDelegate.m in Sources */,
 				1411B6FC1CE4BB11004E8EF4 /* main.m in Sources */,
 			);
@@ -314,6 +320,7 @@
 				1411B7101CE4BB11004E8EF4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
