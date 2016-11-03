@@ -279,7 +279,7 @@
     label.tag = 99901;
     label.font = [UIFont systemFontOfSize:TitleFont];
     label.textColor = TitleColor;
-    label.textAlignment = kTextAlignmentCenter;
+    label.textAlignment = NSTextAlignmentCenter;
     label.text = title;
     self.titleView = label;
 
