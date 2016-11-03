@@ -22,6 +22,7 @@
     [btn addTarget:self action:@selector(push) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:btn];
     btn.frame = self.view.bounds;
+    
 }
 
 - (void)push {
@@ -33,6 +34,7 @@
     
     [self.navigationController pushViewController:vc animated:YES];
 }
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
