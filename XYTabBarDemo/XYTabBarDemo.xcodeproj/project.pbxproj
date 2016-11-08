@@ -31,6 +31,7 @@
 		CE2003311DCB1C0A00E4BB7E /* nav_bg_image@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE2003241DCB1C0A00E4BB7E /* nav_bg_image@2x.png */; };
 		CE20035C1DCB4DAD00E4BB7E /* ZFBNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE2003591DCB4DAD00E4BB7E /* ZFBNavController.m */; };
 		CE20035D1DCB4DAD00E4BB7E /* ZFBTabController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE20035B1DCB4DAD00E4BB7E /* ZFBTabController.m */; };
+		CE2003611DD15E6600E4BB7E /* NSObject+XNRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = CE2003601DD15E6600E4BB7E /* NSObject+XNRuntime.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -68,6 +69,8 @@
 		CE2003591DCB4DAD00E4BB7E /* ZFBNavController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFBNavController.m; sourceTree = "<group>"; };
 		CE20035A1DCB4DAD00E4BB7E /* ZFBTabController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFBTabController.h; sourceTree = "<group>"; };
 		CE20035B1DCB4DAD00E4BB7E /* ZFBTabController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFBTabController.m; sourceTree = "<group>"; };
+		CE20035F1DD15E6600E4BB7E /* NSObject+XNRuntime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+XNRuntime.h"; sourceTree = "<group>"; };
+		CE2003601DD15E6600E4BB7E /* NSObject+XNRuntime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+XNRuntime.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +103,7 @@
 		1411B6F91CE4BB11004E8EF4 /* XYTabBarDemo */ = {
 			isa = PBXGroup;
 			children = (
+				CE20035E1DD15E6600E4BB7E /* Tools */,
 				CE2003581DCB4DAD00E4BB7E /* ZFBNavController.h */,
 				CE2003591DCB4DAD00E4BB7E /* ZFBNavController.m */,
 				CE20035A1DCB4DAD00E4BB7E /* ZFBTabController.h */,
@@ -159,6 +163,15 @@
 				CE2003241DCB1C0A00E4BB7E /* nav_bg_image@2x.png */,
 			);
 			path = toolbar;
+			sourceTree = "<group>";
+		};
+		CE20035E1DD15E6600E4BB7E /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				CE20035F1DD15E6600E4BB7E /* NSObject+XNRuntime.h */,
+				CE2003601DD15E6600E4BB7E /* NSObject+XNRuntime.m */,
+			);
+			path = Tools;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,6 +262,7 @@
 				1411B7021CE4BB11004E8EF4 /* ViewController.m in Sources */,
 				1411B7131CE4BB2F004E8EF4 /* UITabBar+Swizzling.m in Sources */,
 				CE2003251DCB1C0A00E4BB7E /* Navbar.m in Sources */,
+				CE2003611DD15E6600E4BB7E /* NSObject+XNRuntime.m in Sources */,
 				CE2003141DCB13DC00E4BB7E /* DemoViewController.m in Sources */,
 				1411B6FF1CE4BB11004E8EF4 /* AppDelegate.m in Sources */,
 				1411B6FC1CE4BB11004E8EF4 /* main.m in Sources */,

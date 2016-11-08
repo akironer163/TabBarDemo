@@ -24,6 +24,11 @@
     self.window.rootViewController = [TabBarViewController new];
     [self.window makeKeyAndVisible];
     
+    UIView *statu = [application valueForKey:@"_statusBar"];
+    
+    statu.backgroundColor = [UIColor blueColor];
+    
+    
     return YES;
 }
 

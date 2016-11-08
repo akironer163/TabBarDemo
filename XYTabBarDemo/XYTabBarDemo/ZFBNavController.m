@@ -2,12 +2,11 @@
 //  ZFBNavController.m
 //  支付宝
 //
-//  Created by HM on 16/7/16.
+//  Created by XN on 16/7/16.
 //  Copyright © 2016年 HM. All rights reserved.
 //
 
 #import "ZFBNavController.h"
-#import "HMAdditonal.h"
 
 @interface ZFBNavController ()
 
@@ -32,7 +31,7 @@
     //如果上面设置了空的背景图片和空的阴影图片，必须要设置translucent为no才能够看到背景颜色
     self.navigationBar.translucent = NO;
     //导航条的颜色
-    self.navigationBar.barTintColor = [UIColor hm_colorWithHex:0x3a3a3a alpha:1];
+    self.navigationBar.barTintColor = [UIColor blueColor];
     
     //设置标签的属性
     //(NSDictionary<NSString *,id> * _Nullable)
